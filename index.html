@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>赫点茶 H.DOT TEA — 一点心意，一点心动</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <img src="images/logo.png" alt="赫点茶五叶金标" class="logo">
+    <h1>赫点茶 H.DOT TEA</h1>
+  </div>
+  <nav>
+    <a href="#home">首页</a>
+    <a href="#about">关于我们</a>
+    <a href="#products">我们的茶</a>
+    <a href="#contact">联系我们</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h2>一点心意，一点心动。</h2>
+  <p>一杯干净的好茶，从一颗认真的心开始。赫点茶只做品质比同行更好的茶。</p>
+  <a class="button" href="#products">看看我们的茶</a>
+</section>
+
+<section class="about" id="about">
+  <h2>关于我们</h2>
+  <p>赫点茶是一家年轻的茶饮店。我们相信，好茶不用多说，喝一口就知道。我们的茶喝着干净，品质比同行好很多，让人一喝就说“这家有特点”。</p>
+  <p>现在有三款茶：福州三窨茉莉花茶、马来西亚金马伦高原红茶、青芽绿茶。首家门店正在河南驻马店筹备中，敬请期待。</p>
+  <div class="features">
+    <div class="feature">
+      <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#7d8b6f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 4C10 4 4 10 4 20c10 0 16-6 16-16z"/><path d="M4 20C9 15 13 11 20 4"/></svg>
+      <h3>品质上乘</h3>
+      <p>好原料，好工艺</p>
+    </div>
+    <div class="feature">
+      <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="#7d8b6f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9h11v6a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V9z"/><path d="M16 10h1.5a2.5 2.5 0 0 1 0 5H16"/><path d="M8.5 6.5c0-1 .8-1.2.8-2M12.5 6.5c0-1 .8-1.2.8-2"/></svg>
+      <h3>干净卫生</h3>
+      <p>喝着干净，放心</p>
+    </div>
+    <div class="feature">
+      <svg viewBox="0 0 24 24" width="48" height="48" fill="#b8934a" stroke="#b8934a" stroke-width="1" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9L6.6 20l1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg>
+      <h3>独有特色</h3>
+      <p>一喝就记得住</p>
+    </div>
+  </div>
+</section>
+
+<section class="products" id="products">
+  <h2>我们的茶</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="images/jasmine.png" alt="茉莉花茶">
+      <h3>茉莉花茶</h3>
+      <p>福州三窨茉莉，清香扑鼻，入口回甘。</p>
+      <p class="price">中杯 18 · 大杯 21</p>
+    </div>
+    <div class="card">
+      <img src="images/black-tea.png" alt="金马伦高原红茶">
+      <h3>金马伦高原红茶</h3>
+      <p>马来西亚金马伦高原红茶，醇厚顺滑。</p>
+      <p class="price">中杯 18 · 大杯 21</p>
+    </div>
+    <div class="card">
+      <img src="images/green-tea.png" alt="青芽绿茶">
+      <h3>青芽绿茶</h3>
+      <p>青芽绿茶，清爽干净，冷萃尤其出色。</p>
+      <p class="price">中杯 18 · 大杯 21</p>
+    </div>
+  </div>
+</section>
+
+<section class="video-section">
+  <h2>看看我们的茶</h2>
+  <video controls src="video/tea-video.mp4"></video>
+  <p>一杯茶，从茶山到你手里。</p>
+</section>
+
+<section class="contact" id="contact">
+  <h2>联系我们</h2>
+  <p>想订茶，或者想聊聊开店的事，给我们留言吧。</p>
+  <form action="#" method="get">
+    <label for="name">姓名</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">邮箱</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">留言</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    <button type="submit">提交留言</button>
+  </form>
+  <p class="form-note">这个表单只作展示，不会真的发送内容。</p>
+</section>
+
+<footer>
+  <p>© 2026 赫点茶 H.DOT TEA — 一点心意，一点心动。</p>
+</footer>
+
+</body>
+</html>
